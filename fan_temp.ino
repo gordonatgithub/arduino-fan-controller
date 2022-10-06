@@ -74,8 +74,12 @@ struct fan_control
 #define MAX_FANS 2
 
 // Fan characteristics for Noctua NF-A14 PWM
-#define MIN_FAN_RPM 300  // 300 RPM at 20% speed
-#define MAX_FAN_RPM 1600 // spec is 1500, measured is ~1605
+//#define MIN_FAN_RPM 300  // 300 RPM at 20% speed
+//#define MAX_FAN_RPM 1600 // spec is 1500, measured is ~1605
+
+// Fan characteristics for BL067 SilentWing3 PWM
+#define MIN_FAN_RPM 200  // 200 RPM at 20% speed
+#define MAX_FAN_RPM 1000 // spec is 1000
 
 // User defined warnning temps (UI notification only, doesn't modify fan behavior)
 #define TEMP_WARNING 30 // degrees C

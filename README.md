@@ -16,7 +16,7 @@ The hardware chosen for this project build was
 * Arduino Leonardo
 * MAX6615 Dual-Channel Temperature Monitors and Fan-Speed Controllers with Thermistor Inputs
 * Elegoo 2.8" TFT with touchscreen and SD card
-* Noctua AF A14 PWM x2
+* be quiet! Silent Wings 3 140mm PWM, BL067
 * NTC Thermistor 10K ohm
 * Various resistors and caps (see circuit diagram)
 
